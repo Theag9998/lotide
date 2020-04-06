@@ -6,3 +6,4 @@ const tail = (actual) => {
 };
 
 module.exports = tail;
+

@@ -1,6 +1,6 @@
 const assertEqual = require('./assertEqual');
 
-const head = function (actual) {
+const head = (actual) => {
 	return actual[0]
 
 }

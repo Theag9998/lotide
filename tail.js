@@ -1,6 +1,6 @@
 const assertEqual = require('./assertEqual');
 
-const tail = function(actual) {
+const tail = (actual) => {
   let newTail = actual.slice(1);
   return newTail;
 };
